@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <button onclick="sayHello()">Say Hello</button>
+    <button onclick="sayHello2()">Say Hello again</button>
+    <h1 id="heading"></h1>
+    <script>
+        function sayHello(){
+            alert("Hello every boody")
+
+        }
+        function sayHello2(){
+          document.getElementById("heading").innerHTML="Hi Iam Mai";
+
+        }
+    </script>
+</body>
+</html>

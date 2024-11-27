@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/css/main.css" />
+</head>
+<body>
+    <div class="container">
+        <h2>Registeration Form</h2>
+        <form>
+            <div class="from-row">
+                <label>Name</label>
+                <input id="name" type="text" onblur="validateInput('name' ,'name_error','Name is Required')" placeholder="Enter your Name"/>
+                <span id="name_error" class="error"></span>
+            </div>
+            <div class="from-row">
+                <label>Mobile</label>
+                <input id="mobile" type="text" onblur="validateInput('mobile' ,'mobile_error','MObile is Required')" placeholder="Enter your Mobile"/>
+                <span id="mobile_error" class="error"></span>
+            </div>
+
+            <div class="from-row">
+                <label>Email</label>
+                <input id="email" type="email" onblur="validateEmail()" placeholder="Enter your Email"/>
+                <span  id="email_error"  class="error"></span>
+            </div>
+
+            <div class="from-row">
+                <label>Date of Birth</label>
+                <input id="bd" type="date" onblur="validateInput('bd' ,'bd_error','Date of Birth is Required')" placeholder="Enter your Email"/>
+                <span  id="bd_error"  class="error"></span>
+            </div>
+            <div class="from-row" style="text-align: right;">
+                <button type="button" onclick="validate()">Register</button>
+            </div>
+
+        </form>
+    </div>
+    
+    <script src="dist/js/main.js" ></script> 
+    <script>
+        let x=50;
+        console.log(x);
+        var rslt=x??=10;
+        console.log(x);
+        console.log(rslt);
+      
+    </script>
+    <script>
+        let employee={
+            firstName:"Ali",lastName:"Mohamed",
+            job:"IT",
+            salary:2500
+        };
+        console.log(employee.firstName+" "+employee.lastName);
+        console.log(employee.job+" "+employee.salary);
+        let names=["Mai","Mohemad","Sfaa"];
+        console.log(names[0]);
+        console.log(names[1]);
+        console.log(names[2]);
+        let xn={};
+        let sb=new Object();
+        xn.name="lara";
+        xn.job="Engineer";
+        xn.salary=2900;
+        console.log(xn);
+    </script>
+    <script>
+             
+    </script>
+</body>
+</html>
+

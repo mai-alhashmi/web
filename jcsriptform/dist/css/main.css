@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(217, 232, 248);   
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: rgb(0, 0, 134);
+   }
+   .container{
+       padding: 20px;
+       margin: 100px auto;
+       max-width:550px;
+       background-color: white;  
+       box-shadow: 5px 4px 4px rgb(187, 217, 251);
+       border-radius: 20px;
+       font-size: larger;
+   }
+   .from-row{
+       margin: 10px 5px;
+   }
+   form input{
+       width: 100%;
+       margin: 5px 0px;
+       padding: 15px;
+       box-sizing: border-box;
+       font-size: larger;
+       border-radius: 5px;
+       border: 1px solid rgba(12, 29, 15, 0.384);
+   }
+   
+   .error{
+       color: red;
+       font-size: medium;
+   }
+   
+   button{
+       padding: 15px 30px;
+       font-size: large;
+       color: blue;
+       border-radius: 5px;
+       border: 1px solid rgb(2, 2, 96);
+   }
+   button:hover{
+       background-color: rgba(237, 247, 95, 0.603);
+       color: rgb(27, 2, 128);
+       font-weight: bold;
+       cursor: pointer;
+       font-size: large;
+       box-shadow: 5px 4px 4px rgb(187, 217, 251);
+   }
+ 
+   input{
+    box-shadow: 1px 2px 2px rgb(187, 217, 251);
+   }

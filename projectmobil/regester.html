@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/css/regester.css" />
+</head>
+
+<body>
+    
+<section id="regester">
+    <h1 class="Registration">Registration Form</h1>
+     <form name="contact_form">
+        <div >
+            <label>Full Name:</label>
+            <input type="text"placeholder="Enter your Full Name"/>
+        </div>
+        <div>
+            <label>Email Address:</label>
+            <input type="text"placeholder="Enter your Email"/>
+        </div>
+        <div>
+            <label>Password:</label>
+            <input type="text"placeholder="Enter your Password"/>
+        </div>
+   
+        <div>
+            <label>Gender:</label>
+            <div id ="radio-group">
+                <input type="radio" name="gender" id="m"/><label for="m">Male</label>
+                <input type ="radio"name="gender"id="f"/><label for="f">Female</label>
+            </div>
+        </div>
+      
+        <div class="mai">
+            <label>Hobbies</label>
+            <div id="div-Hobbies">
+                <input type="checkbox"id="reading"><label for="reading">Reading</label>
+                <input type="checkbox"id="traveling"><label for="traveling">traveling</label>
+                <input type="checkbox"id="gaming"><label for="reading">reading</label>
+            </div>
+        </div>
+        <div class="mai spes">
+            <label>Country</label>
+            <select>
+  
+            <option>USA</option>
+            <option>Germany</option>
+            <output>Franc</output>
+        </select>
+        </div>
+        <div>
+            <label>Date Of Birth :</label>
+            <input type="date"/>
+        </div>
+        <div class="textarea">
+            <label>Short Bio :</label>
+            <textarea  rows=5 placeholder="Tell us somthing about yourself....."></textarea>
+        </div>
+        <div>
+           <label> <input type="checkbox"> I agree to the <a href="#">terms and coditic</a></label>
+        </div>
+        <div class="sub">
+            <button type="submit">submit</button>
+        </div>
+            
+    </form>
+</section>
+
+    
+</body>
+</html>

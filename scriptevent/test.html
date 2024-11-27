@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="dist/css/main.css" />
+        <link rel="stylesheet" href="dist/css/test.css" />
+
+    </head>
+    <body>
+        <div>
+        <h1>Group</h1>
+        </div>
+
+            <div style="width: 400px;">
+               
+                    <input type="text" id="model" placeholder="Model">
+                    <input type="text" id="color" placeholder="Color">
+                    <input type="number" id="price" placeholder="price">
+            
+                    <button type="button" onclick="add()">Add</button>
+              
+            </div>
+        </div>
+        
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                       
+                        <th>#</th>
+                        <th>Model</th>
+                        <th>Color</th>
+                        <th>price</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBoody">
+                </tbody>
+            </table>
+
+        </div>
+        <script src="dist/js/test.js"></script>
+    </body>
+</html>

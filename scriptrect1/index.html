@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/css/main.css" />
+</head>
+<body>
+    <script src="dist/js/main.js" ></script> 
+  
+  </script>
+  <script>
+      const rect={
+        width:200,
+        height:200,
+        erea:function(){
+            return this.width*this.height;
+        } , 
+        premetr:function(){
+           return this.width*this.height*2;
+
+        }
+    };
+    console.log(rect.width);
+    console.log(rect.height);
+    console.log(rect.erea());
+    console.log(rect.premetr()); 
+
+    const names=["Mai","Ali","Sara"];
+     for(let i=0; i< names.length;i++){
+        console.log(names[i]);
+     }
+   for(let name of names){
+    console.log(name);
+   }
+   function Box(width,height,length){
+   this.length=length;
+   this.width=width;
+   this.height=height;
+   this.valume=function(){
+    return this.length* this.width*this.height;
+   }
+
+   }
+   let b1=new Box(10,20,30);
+   console.log(b1.valume());
+   let b2=new Box(10,5,10);
+   console.log(b2.valume());
+
+   for (const key in b1) {
+    
+    console.log(key+" "+b1[key]);
+        
+    }
+    for (const key in b2) {
+      console.log(b2[key]);
+        }
+
+       class employee2 {
+        constructor(name,job,salary) {
+            this.name=name;
+            this.job=job;
+            this.salary=salary;
+       
+       }
+        print(){
+            console.log("name:" + this.name);
+            console.log("job:" + this.job);
+            console.log("salary:" + this.salary);
+        }
+    }
+    
+       let E1=new employee2("Mai","Engineer",5500);
+       E1.print();
+
+       let E2=new employee2("Sara","design",5000);
+       console.log(E2);
+
+    let s1=new Set([1,3,6,7,8,8,1,1]);
+    console.log(s1);
+
+    let s2=new Set();
+        s2.add("Leen");
+        s2.add("Ahmed");
+        s2.add("Samer");
+        s2.add("Mona");
+        console.log(s2);
+    let degrees =new Map([
+        ["Mai",100],
+        ["Sara",90],
+        ["Jan",66],
+    ]);
+    console.log(degrees);
+      
+    let employee3=new Map(
+    [
+        [13,{firstName:"Adam",lastName:"abod",salary:3000}],
+        [132,{firstName:"Amer",lastName:"abod",salary:3500}]
+
+    ]);
+  console.log(employee3.get(13));
+  console.log(employee3.get (132).firstName);
+  console.log(employee3.get (132).salary);
+  console.log(employee3);
+  </script>
+
+</body>
+</html>
+

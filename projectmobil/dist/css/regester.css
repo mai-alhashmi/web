@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(227, 241, 254);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+#regester{
+    margin: 0px auto;
+    width: 500px;
+   padding: 30px;
+    background-color: rgb(244, 247, 247);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(255, 253, 253);
+}
+#regester form{
+    text-align: left;
+    margin: 0;
+}
+
+#regester form label {
+    display: block;
+    margin-bottom: 5px;
+
+}
+input,select, textarea {
+    width: 98%;
+    padding:10px;
+    margin-bottom: 5px;
+   
+}
+#radio-group,#div-Hobbies{
+    display: flex;
+    width: auto;
+ 
+}
+form input[type="radio"],form input[type="checkbox"]{
+    width: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.mai{
+    color: rgb(5, 5, 244);
+    background-color: beige;
+    border:solid rgb(244, 244, 247) 2px;
+}
+.spes{
+    padding: 10px;
+    margin: 10px;
+}
+.bio{
+    color: blueviolet;
+}
+.sub{
+    color: red;
+    background-color: beige;
+    border:solid rgb(244, 244, 246) 2px;
+}
+.textarea{
+    color: red;
+    background-color: beige;
+    border:solid rgb(251, 251, 252) 2px;
+}
+.Registration{
+    color: red;
+    background-color: beige;
+    border:solid rgb(251, 251, 252) 2px;
+}
+}
+

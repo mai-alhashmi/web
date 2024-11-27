@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="dist/css/main.css" />
+    </head>
+    <body>
+
+        <div>
+            <h1>StudentsSchool</h1>
+            <div>
+                <form>
+             
+                    <input type="text" id="fullName" placeholder="FullName">
+                    <input type="text" id="materials" placeholder="Materials">
+                    <input type="number" id="degree" placeholder="Degree">
+                    <input type="text" id="class" placeholder="Class">
+                    <input type="number" id="result" placeholder="Result">
+                   
+                    <button type="button" onclick="add()">Add</button>
+
+                </form>
+            </div>
+        </div>
+
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>FullName</th>
+                        <th>Materials</th>
+                        <th>Degree</th>
+                        <th>Class</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBoody">
+
+                </tbody>
+            </table>
+        </div>
+        <script src="dist/js/stu.js"></script>
+
+    </body>
+</html>

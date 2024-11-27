@@ -1,0 +1,161 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 254, 254);
+
+}
+
+header {
+    background-color: rgba(195, 204, 216, 0.738);
+    color: rgba(34, 0, 255, 0.966);
+    text-align: center;
+    padding: 40px;
+    margin: 5px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    margin: 5px;
+}
+
+header p {
+    font-size: 1.5em;
+    margin: 5px;
+}
+
+.section {
+    padding: 30px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin: 5px;
+}
+
+.section h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    margin: 5px;
+}
+
+.about-us,
+.vision-mission {
+
+    background-color: #fcfeff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin: 5px;
+    border: solid rgb(131, 199, 248);
+   
+}
+.services{
+    margin:10px; 
+}
+.service-blog:hover{
+    transform :scale(1.20);
+    transition: 2s;
+}
+.service-list {
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    margin: 5px;
+
+
+}
+
+.service-blog {
+    /* display: flex; */
+    background-color: rgb(212, 223, 244);
+    padding: 20px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* flex: 250px; */
+    text-align: center;
+    margin: 20px;
+    border: solid rgb(116, 186, 247);
+}
+#team{
+    border: solid rgb(132, 183, 241);
+    padding: 20px;
+}
+.team {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #f3f7f9;
+    padding: 30px;
+   
+}
+.team-member img:hover{
+    transform: rotate(360deg) scale(1.5);
+    transition: 2s;    
+}
+
+.team-member {
+    text-align: center;
+    max-width: 200px;
+    text-shadow: rgb(242, 135, 4);
+  
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    margin-bottom: 20px;
+}
+
+.contact-us {
+    background-color: #fffbfb;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+label {
+    font-size: 1em;
+}
+
+input,
+textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #4e4a4a;
+}
+
+button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #616efc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f1c4c4;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #efd5d5;
+    color: white;
+    background-color: rgba(195, 204, 216, 0.738);
+    color: rgba(34, 0, 255, 0.966);
+}
+
+footer :hover {
+    background-color: #f1c4c4;
+}

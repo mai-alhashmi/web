@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="dist/css/main.css" />
+    </head>
+    <body>
+
+        <div>
+            <h1>Employee</h1>
+            <div>
+                <form>
+                    <input type="text" id="name" placeholder="Name">
+                    <input type="email" id="email" placeholder="Email">
+                    <input type="number" id="mobile" placeholder="Mobile">
+                    <input type="text" id="job" placeholder="Job">
+                    <input type="number" id="salary" placeholder="Salary">
+
+                    <button type="button" onclick="add()">add</button>
+                </form>
+            </div>
+        </div>
+
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Mobile</th>
+                        <th>Job</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                <tbody id="tabelBoody">
+
+                </tbody>
+            </table>
+        </div>
+        <script src="dist/js/empl.js"></script>
+    </body>
+
+</html>

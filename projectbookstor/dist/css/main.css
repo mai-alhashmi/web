@@ -1,0 +1,149 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+
+    background-color: rgba(246, 255, 203, 0.296);
+}
+.navbar{
+    display: flex;
+    background-color: #403939;
+    justify-content: space-between;
+    padding: 20px;
+}
+.navbar-links {
+    list-style: none;
+    display: flex;
+    padding: 19px 20px;
+}
+
+.navbar h1 {
+    margin-top: 30px;
+    color: white;
+}
+
+.navbar ul li {
+    margin-left: 30px;
+    padding: 0;
+}
+
+.navbar ul li a {
+    color: #f6f6f7;
+    text-decoration: none;
+}
+
+header {
+    background-image: url('../../images/boook.jpeg');
+    background-size: cover;
+    color: rgba(15, 82, 216, 0.985);
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.hestory {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hestory-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hestory h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hestory p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #ff4500;
+    color: #680505;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.featured-books {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.books-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.book {
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(100, 87, 86, 0.717);
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.book img {
+    width: 100%;
+    height: 250px;
+
+    /* border: 1px solid #f39292; */
+}
+
+.book h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.read-more:hover {
+    background-color: rgb(237, 93, 93);
+}
+
+.categories {
+    background-color: #b1e2f2;
+    padding: 30px 20px;
+    text-align: center;
+
+}
+
+.categories-container {
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.category {
+    background-color: #94a9b6;
+    border: 1px solid #f39292;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #2009f1;
+}
+
+.category:hover {
+    background-color: #f0eef6;
+
+}
+
+.book-more {
+    padding: 70px;
+    text-align: center;
+}
+
+footer {
+    background-color: #403939;
+    color: #edecf2;
+    text-align: center;
+    padding: 20px 0;
+    /* margin-top: 30px; */
+}

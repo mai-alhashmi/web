@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(252, 251, 250);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+#header {
+  /*  background-color: rgb(255, 172, 100);*/
+    background:linear-gradient(to bottom,rgb(253, 163, 131),rgb(247, 134, 94) );
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: rgb(75, 16, 71);
+}
+#header h1{
+    font-size: 40pt;
+    margin: 15px;
+}
+#header p{
+    font-size:20pt;
+}
+#header input{ 
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(40, 30, 12);
+    background-color: rgb(247, 245, 243);
+    border: 1px solid coral;
+}
+
+#header input:hover {
+    cursor: pointer;
+    background-color: rgb(232, 223, 210);
+    color: blue;
+ 
+}
+#proudect{
+    text-align: center;
+    padding: 20px;
+
+}
+#proudect h1{
+    font-size: 30pt;
+}
+
+#proudect-list {
+    width: 100%;
+    display: flex;
+}
+#proudect-list div {
+    width: 33%
+   
+}
+#proudect_list div img{
+    width: 150px;
+    height: 150px;
+}
+
+#proudect-txt  {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(253, 231, 209);
+}
+
+#proudect-txt p{
+    font-size: 15pt;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+#contact-list{
+    width: 100%;
+    display: flex;
+}
+#contact {
+   
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#contact form {
+    text-align: left;
+    margin-top: 7px;
+   display: inline-block;
+}
+
+#contact input {
+    padding: 7px;
+    border: 2px solid rgb(236, 216, 214);
+    
+}
+
+#contact input[type=submit] {
+    background-color: rgb(233, 235, 240);
+    font-weight: bold;
+
+}
+
+footer {
+    background-color: rgb(253, 163, 133);
+    margin: 0px;
+    padding: 7px;
+    text-align: center;
+    color: rgb(24, 46, 248);
+
+}
+footer a:hover{
+   
+    color: rgb(255, 0, 0);
+ 
+}

@@ -1,0 +1,75 @@
+body{
+background-color:rgb(215, 220, 220);
+background-image:url("imags/download\ \(1\).jpeg") ;
+background-repeat:repeat-y;
+/*background-position: center;*/
+
+}
+h1{
+    color:blue;
+    font-size: 50pt;
+    padding: 150px;
+
+}
+h2{
+    color: rgb(255, 0, 217);
+    font-size: 40pt;
+ 
+}
+p{
+    color: rgb(8, 36, 111);
+    font-size:30pt;
+    margin: 15px;
+    padding: 20px;
+     border-top: 6px dotted yellowgreen;
+     border-bottom:3px dotted blue; 
+     border-left: 3px dotted orchid;
+     border-right: 3px dotted yellow;
+}
+h3{
+    color: 50pt;
+    font-size: 30px;
+    border-top: 5px double yellow;
+    border-bottom: 5px solid rgb(184, 178, 179);
+    border-left:   5px solid rgb(248, 97, 3);
+    border-right:5px solid rgb(0, 98, 255) ;
+    
+}
+table,th,td{
+    border:5px solid  rgb(60, 36, 36); 
+    border-collapse: collapse;
+    font-size: 2cap;
+    
+}
+table{
+     border:5px solid  yellow; 
+    border-color: brown;
+}
+td{
+    padding: 0px 10px;
+    color: rgb(22, 6, 57);
+    border-color: cadetblue;
+
+}
+th{
+    background-color: rgb(254, 244, 225);
+    color: rgb(255, 98, 0);
+}
+ul,ol{
+    font-size: 30pt;
+}
+td{
+   border :3px color(srgb red green blue);
+   border-collapse: collapse;
+}
+h4{
+  margin: 100px;
+ 
+  padding: 50px;
+}
+
+
+
+
+
+     

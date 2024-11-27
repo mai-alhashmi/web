@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(155, 194, 238);
+}
+#rect{
+    background-color: brown;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+button{
+    padding: 10px;
+    cursor: pointer;
+}
